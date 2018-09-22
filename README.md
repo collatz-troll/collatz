@@ -1,9 +1,9 @@
-collatz_traj_all_seeds.cpp -- lists of starting and ending numbers for all partial
-Collatz trajectories up to a length given in the command line argument.
+collatz_traj_all_seeds.cpp -- gives all starts and ends for all (partial) Collatz
+trajectories up to a length given in the command line argument.
 
 To compile with gcc:
 ```
-gcc -std=c++11 -O3 collatz_traj_all_seeds.cpp -o collatz_traj_all_seeds
+g++ -std=c++11 -O3 collatz_traj_all_seeds.cpp -o collatz_traj_all_seeds
 ```
 
 To run:
